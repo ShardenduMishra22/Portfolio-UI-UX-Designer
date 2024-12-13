@@ -15,26 +15,6 @@ const Navbar = () => {
             Vasini Singh
           </Link>
         </motion.div>
-
-        <div className="hidden md:flex space-x-8 items-center">
-          {[
-            { name: 'About', path: '/about' },
-          ].map(({ name, path }) => (
-            <motion.div
-              key={name}
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              className="cursor-pointer"
-            >
-              <Link 
-                to={path} 
-                className="text-white hover:text-[#4A90E2] transition-colors tracking-wider uppercase text-sm font-medium"
-              >
-                {name}
-              </Link>
-            </motion.div>
-          ))}
-        </div>
       </div>
     </nav>
   );
