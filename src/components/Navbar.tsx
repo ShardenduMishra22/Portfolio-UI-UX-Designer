@@ -28,15 +28,6 @@ const Navbar = () => {
             whileTap={{ scale: 0.95 }}
             className="cursor-pointer"
           >
-            <Link to="/work" className="text-white hover:text-blue-300 transition-colors">
-              Work
-            </Link>
-          </motion.div>
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
-            className="cursor-pointer"
-          >
             <Link to="/resume" className="text-white hover:text-blue-300 transition-colors">
               Resume
             </Link>
