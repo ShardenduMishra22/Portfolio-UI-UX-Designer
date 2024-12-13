@@ -47,11 +47,11 @@ const About = () => {
           <div className="bg-gradient-to-r from-[#4A90E2] to-[#50C878] text-white px-8 py-12">
             <div className="flex flex-col md:flex-row items-center justify-center mb-8 space-y-6 md:space-y-0 md:space-x-12">
               <div className="w-56 h-56 rounded-full overflow-hidden shadow-xl border-4 border-white/30 relative transform hover:scale-105 transition-transform duration-300">
-                <img 
-                  src="/src/VasiniProfile.png" 
-                  alt="Vasini Singh Profile" 
-                  className="w-full h-full object-cover absolute inset-0"
-                />
+              <img 
+                src="https://github.com/ShardenduMishra22/Portfolio-UI-UX-Designer/blob/main/src/VasiniProfile.png?raw=true" 
+                alt="Vasini Singh Profile" 
+                className="w-full h-full object-cover"
+              />
               </div>
               <div className="text-center md:text-left max-w-xl">
                 <h1 className="text-5xl font-extrabold mb-3 text-white drop-shadow-md">
