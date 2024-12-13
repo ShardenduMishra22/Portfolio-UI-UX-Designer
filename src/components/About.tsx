@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, Linkedin, MapPin, Download, Target } from 'lucide-react';
 import Info from '../Data/Info';
