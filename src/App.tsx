@@ -1,26 +1,17 @@
-// import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import "./index.css"
-import { Route, Routes } from 'react-router-dom';
 import About from './components/About';
-import ExperiencePage from './components/Experience';
-import ProjectsPage from './components/Projects';
-
+import Home from './components/Home';
+import "./index.css";
 
 const App = () => {
   return (
-    <>
+    <div>
       <Navbar />
-      <div className='bg-[#2E3B4E] min-h-screen '>
-        <Routes>
-          <Route path='/about' element={<About />} />
-        </Routes>
-      </div>
-      <ExperiencePage />
-      <ProjectsPage/>
+      <About />
+      <Home />
       <Footer />
-    </>
+    </div>
   );
 };
 
